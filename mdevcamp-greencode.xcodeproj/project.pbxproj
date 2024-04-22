@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 60;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -11,6 +11,7 @@
 		E17807482BD6A6350085073C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17807472BD6A6350085073C /* ContentView.swift */; };
 		E178074A2BD6A6360085073C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E17807492BD6A6360085073C /* Assets.xcassets */; };
 		E178074D2BD6A6360085073C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E178074C2BD6A6360085073C /* Preview Assets.xcassets */; };
+		E17807562BD6A8D30085073C /* MAULWrapper in Frameworks */ = {isa = PBXBuildFile; productRef = E17807552BD6A8D30085073C /* MAULWrapper */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		E17807472BD6A6350085073C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E17807492BD6A6360085073C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E178074C2BD6A6360085073C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E17807532BD6A6570085073C /* MAULWrapper */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = MAULWrapper; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +28,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E17807562BD6A8D30085073C /* MAULWrapper in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -35,6 +38,7 @@
 		E17807392BD6A6350085073C = {
 			isa = PBXGroup;
 			children = (
+				E17807532BD6A6570085073C /* MAULWrapper */,
 				E17807442BD6A6350085073C /* mdevcamp-greencode */,
 				E17807432BD6A6350085073C /* Products */,
 			);
@@ -83,6 +87,9 @@
 			dependencies = (
 			);
 			name = "mdevcamp-greencode";
+			packageProductDependencies = (
+				E17807552BD6A8D30085073C /* MAULWrapper */,
+			);
 			productName = "mdevcamp-greencode";
 			productReference = E17807422BD6A6350085073C /* mdevcamp-greencode.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +118,9 @@
 				Base,
 			);
 			mainGroup = E17807392BD6A6350085073C;
+			packageReferences = (
+				E17807542BD6A8D30085073C /* XCLocalSwiftPackageReference "MAULWrapper" */,
+			);
 			productRefGroup = E17807432BD6A6350085073C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -344,6 +354,20 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		E17807542BD6A8D30085073C /* XCLocalSwiftPackageReference "MAULWrapper" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = MAULWrapper;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E17807552BD6A8D30085073C /* MAULWrapper */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = MAULWrapper;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = E178073A2BD6A6350085073C /* Project object */;
 }

@@ -1,0 +1,31 @@
+{
+  "pins" : [
+    {
+      "identity" : "bottomsheet",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/lucaszischka/BottomSheet.git",
+      "state" : {
+        "revision" : "17023325f8375a004bb44a5ff9e04f795a393e3a",
+        "version" : "2.5.0"
+      }
+    },
+    {
+      "identity" : "lottie-spm",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/airbnb/lottie-spm.git",
+      "state" : {
+        "revision" : "1d29eccc24cc8b75bff9f6804155112c0ffc9605",
+        "version" : "4.4.3"
+      }
+    },
+    {
+      "identity" : "moap.maul",
+      "kind" : "registry",
+      "location" : "",
+      "state" : {
+        "version" : "5.8.0"
+      }
+    }
+  ],
+  "version" : 2
+}
