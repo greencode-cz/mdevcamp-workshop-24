@@ -362,3 +362,12 @@ struct ListPlayground: View {
     .navigationTitle("List")
   }
 }
+
+struct ListPlayground_Previews: PreviewProvider {
+  static var previews: some View {
+    NavigationView {
+      ListPlayground()
+    }
+    .setupMAULForPreviews()
+  }
+}

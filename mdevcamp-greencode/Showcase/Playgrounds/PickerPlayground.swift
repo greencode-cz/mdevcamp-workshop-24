@@ -129,5 +129,13 @@ struct PickerPlayground: View {
     }
     .navigationTitle("Picker")
   }
+}
 
+struct PickerPlayground_Previews: PreviewProvider {
+  static var previews: some View {
+    NavigationView {
+      PickerPlayground()
+    }
+    .setupMAULForPreviews()
+  }
 }

@@ -80,7 +80,7 @@ struct MenuScreen: View {
 #endif
     }
     VStack {
-      view.padding().environment(\.colorScheme, .light).background(Color.white)
+      view.padding().environment(\.colorScheme, .light)//.background(Color.white)
       view.padding().environment(\.colorScheme, .dark).background(Color.black)
     }.navigationTitle("Menu")
   }
