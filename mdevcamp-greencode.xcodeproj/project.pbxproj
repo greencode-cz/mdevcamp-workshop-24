@@ -7,20 +7,184 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E17807462BD6A6350085073C /* mdevcamp_greencodeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17807452BD6A6350085073C /* mdevcamp_greencodeApp.swift */; };
-		E17807482BD6A6350085073C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17807472BD6A6350085073C /* ContentView.swift */; };
+		E17807462BD6A6350085073C /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17807452BD6A6350085073C /* Main.swift */; };
 		E178074A2BD6A6360085073C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E17807492BD6A6360085073C /* Assets.xcassets */; };
 		E178074D2BD6A6360085073C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E178074C2BD6A6360085073C /* Preview Assets.xcassets */; };
 		E17807562BD6A8D30085073C /* MAULWrapper in Frameworks */ = {isa = PBXBuildFile; productRef = E17807552BD6A8D30085073C /* MAULWrapper */; };
+		E178075B2BD6B3F70085073C /* Assignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17807572BD6B3F70085073C /* Assignment.swift */; };
+		E178075C2BD6B3F70085073C /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17807582BD6B3F70085073C /* MainView.swift */; };
+		E178075E2BD6B3F70085073C /* Showcase.swift in Sources */ = {isa = PBXBuildFile; fileRef = E178075A2BD6B3F70085073C /* Showcase.swift */; };
+		E17807612BD6C1DA0085073C /* Screens.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17807602BD6C1DA0085073C /* Screens.swift */; };
+		E17807852BD6C3300085073C /* DatePickerScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17807632BD6C32F0085073C /* DatePickerScreen.swift */; };
+		E17807862BD6C3300085073C /* ColorPickerScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17807642BD6C32F0085073C /* ColorPickerScreen.swift */; };
+		E17807872BD6C3300085073C /* NativePageControlScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17807652BD6C32F0085073C /* NativePageControlScreen.swift */; };
+		E17807882BD6C3300085073C /* ButtonScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17807662BD6C32F0085073C /* ButtonScreen.swift */; };
+		E17807892BD6C3300085073C /* ConfirmDialogScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17807672BD6C32F0085073C /* ConfirmDialogScreen.swift */; };
+		E178078B2BD6C3300085073C /* BadgeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17807692BD6C32F0085073C /* BadgeScreen.swift */; };
+		E178078C2BD6C3300085073C /* SliderScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E178076A2BD6C32F0085073C /* SliderScreen.swift */; };
+		E178078D2BD6C3300085073C /* StatusScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E178076B2BD6C32F0085073C /* StatusScreen.swift */; };
+		E178078E2BD6C3300085073C /* TextEditorScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E178076C2BD6C32F0085073C /* TextEditorScreen.swift */; };
+		E178078F2BD6C3300085073C /* FormScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E178076D2BD6C32F0085073C /* FormScreen.swift */; };
+		E17807902BD6C3300085073C /* CheckboxScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E178076E2BD6C32F0085073C /* CheckboxScreen.swift */; };
+		E17807912BD6C3300085073C /* CardScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E178076F2BD6C32F0085073C /* CardScreen.swift */; };
+		E17807922BD6C3300085073C /* MenuScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17807702BD6C32F0085073C /* MenuScreen.swift */; };
+		E17807932BD6C3300085073C /* SnackBarScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17807712BD6C3300085073C /* SnackBarScreen.swift */; };
+		E17807942BD6C3300085073C /* TextFieldScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17807722BD6C3300085073C /* TextFieldScreen.swift */; };
+		E17807952BD6C3300085073C /* ChipsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17807732BD6C3300085073C /* ChipsScreen.swift */; };
+		E17807962BD6C3300085073C /* SecureFieldScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17807742BD6C3300085073C /* SecureFieldScreen.swift */; };
+		E17807972BD6C3300085073C /* ProgressViewScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17807752BD6C3300085073C /* ProgressViewScreen.swift */; };
+		E17807982BD6C3300085073C /* CustomSearchFieldScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17807762BD6C3300085073C /* CustomSearchFieldScreen.swift */; };
+		E17807992BD6C3300085073C /* ListScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17807772BD6C3300085073C /* ListScreen.swift */; };
+		E178079A2BD6C3300085073C /* NumberingPageControlScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17807782BD6C3300085073C /* NumberingPageControlScreen.swift */; };
+		E178079B2BD6C3300085073C /* RadioGroupScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17807792BD6C3300085073C /* RadioGroupScreen.swift */; };
+		E178079C2BD6C3300085073C /* DialogScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E178077A2BD6C3300085073C /* DialogScreen.swift */; };
+		E178079D2BD6C3300085073C /* LabelScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E178077B2BD6C3300085073C /* LabelScreen.swift */; };
+		E178079E2BD6C3300085073C /* SearchFieldScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E178077C2BD6C3300085073C /* SearchFieldScreen.swift */; };
+		E178079F2BD6C3300085073C /* BannerScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E178077D2BD6C3300085073C /* BannerScreen.swift */; };
+		E17807A02BD6C3300085073C /* MapPinScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E178077E2BD6C3300085073C /* MapPinScreen.swift */; };
+		E17807A12BD6C3300085073C /* TimestampPageControlScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E178077F2BD6C3300085073C /* TimestampPageControlScreen.swift */; };
+		E17807A22BD6C3300085073C /* SegmentedControlScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17807802BD6C3300085073C /* SegmentedControlScreen.swift */; };
+		E17807A32BD6C3300085073C /* AvatarScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17807812BD6C3300085073C /* AvatarScreen.swift */; };
+		E17807A42BD6C3300085073C /* PickerScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17807822BD6C3300085073C /* PickerScreen.swift */; };
+		E17807A52BD6C3300085073C /* ToggleSwitchScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17807832BD6C3300085073C /* ToggleSwitchScreen.swift */; };
+		E17807A62BD6C3300085073C /* StepperScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17807842BD6C3300085073C /* StepperScreen.swift */; };
+		E17807C32BD6C3870085073C /* FormPlayground.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17807A82BD6C3860085073C /* FormPlayground.swift */; };
+		E17807C42BD6C3870085073C /* MapPinPlayground.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17807A92BD6C3860085073C /* MapPinPlayground.swift */; };
+		E17807C52BD6C3870085073C /* ProgressViewPlayground.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17807AA2BD6C3860085073C /* ProgressViewPlayground.swift */; };
+		E17807C62BD6C3870085073C /* BannerPlayground.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17807AB2BD6C3860085073C /* BannerPlayground.swift */; };
+		E17807C72BD6C3870085073C /* SheetPlayground.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17807AC2BD6C3870085073C /* SheetPlayground.swift */; };
+		E17807C82BD6C3870085073C /* SecureFieldPlayground.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17807AD2BD6C3870085073C /* SecureFieldPlayground.swift */; };
+		E17807C92BD6C3870085073C /* LabelPlayground.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17807AE2BD6C3870085073C /* LabelPlayground.swift */; };
+		E17807CA2BD6C3870085073C /* TextEditorPlayground.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17807AF2BD6C3870085073C /* TextEditorPlayground.swift */; };
+		E17807CB2BD6C3870085073C /* CheckboxPlayground.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17807B02BD6C3870085073C /* CheckboxPlayground.swift */; };
+		E17807CC2BD6C3870085073C /* TimestampPageControlPlayground.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17807B12BD6C3870085073C /* TimestampPageControlPlayground.swift */; };
+		E17807CD2BD6C3870085073C /* ChipPlayground.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17807B22BD6C3870085073C /* ChipPlayground.swift */; };
+		E17807CE2BD6C3870085073C /* SearchFieldPlayground.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17807B32BD6C3870085073C /* SearchFieldPlayground.swift */; };
+		E17807CF2BD6C3870085073C /* RadioGroupPlayground.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17807B42BD6C3870085073C /* RadioGroupPlayground.swift */; };
+		E17807D02BD6C3870085073C /* StatusPlayground.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17807B52BD6C3870085073C /* StatusPlayground.swift */; };
+		E17807D12BD6C3870085073C /* TextFieldPlayground.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17807B62BD6C3870085073C /* TextFieldPlayground.swift */; };
+		E17807D22BD6C3870085073C /* PickerPlayground.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17807B72BD6C3870085073C /* PickerPlayground.swift */; };
+		E17807D32BD6C3870085073C /* ToggleSwitchPlayground.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17807B82BD6C3870085073C /* ToggleSwitchPlayground.swift */; };
+		E17807D42BD6C3870085073C /* CardPlayground.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17807B92BD6C3870085073C /* CardPlayground.swift */; };
+		E17807D52BD6C3870085073C /* DialogPlayground.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17807BA2BD6C3870085073C /* DialogPlayground.swift */; };
+		E17807D62BD6C3870085073C /* ListPlayground.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17807BB2BD6C3870085073C /* ListPlayground.swift */; };
+		E17807D72BD6C3870085073C /* SliderPlayground.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17807BC2BD6C3870085073C /* SliderPlayground.swift */; };
+		E17807D82BD6C3870085073C /* StepperPlayground.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17807BD2BD6C3870085073C /* StepperPlayground.swift */; };
+		E17807D92BD6C3870085073C /* NumberingPageControPlayground.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17807BE2BD6C3870085073C /* NumberingPageControPlayground.swift */; };
+		E17807DA2BD6C3870085073C /* SnackbarPlayground.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17807BF2BD6C3870085073C /* SnackbarPlayground.swift */; };
+		E17807DB2BD6C3870085073C /* AvatarPlayground.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17807C02BD6C3870085073C /* AvatarPlayground.swift */; };
+		E17807DC2BD6C3870085073C /* BadgePlayground.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17807C12BD6C3870085073C /* BadgePlayground.swift */; };
+		E17807DD2BD6C3870085073C /* ButtonPlayground.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17807C22BD6C3870085073C /* ButtonPlayground.swift */; };
+		E17807E42BD6C4FF0085073C /* TypographyScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17807DF2BD6C4FF0085073C /* TypographyScreen.swift */; };
+		E17807E52BD6C4FF0085073C /* ElevationScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17807E02BD6C4FF0085073C /* ElevationScreen.swift */; };
+		E17807E62BD6C4FF0085073C /* LogosScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17807E12BD6C4FF0085073C /* LogosScreen.swift */; };
+		E17807E72BD6C4FF0085073C /* SpacesScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17807E22BD6C4FF0085073C /* SpacesScreen.swift */; };
+		E17807E82BD6C4FF0085073C /* ColorScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17807E32BD6C4FF0085073C /* ColorScreen.swift */; };
+		E17807EE2BD6C51F0085073C /* MultiColourIconScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17807EA2BD6C51F0085073C /* MultiColourIconScreen.swift */; };
+		E17807EF2BD6C51F0085073C /* MultiColourIcons.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17807EB2BD6C51F0085073C /* MultiColourIcons.swift */; };
+		E17807F02BD6C51F0085073C /* IconsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17807EC2BD6C51F0085073C /* IconsScreen.swift */; };
+		E17807F12BD6C51F0085073C /* Icons.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17807ED2BD6C51F0085073C /* Icons.swift */; };
+		E17807F52BD6C64E0085073C /* Playground.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17807F32BD6C64E0085073C /* Playground.swift */; };
+		E17807F62BD6C64E0085073C /* SplitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17807F42BD6C64E0085073C /* SplitView.swift */; };
+		E17807FF2BD6CAB80085073C /* NotificationsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17807F82BD6CAB80085073C /* NotificationsScreen.swift */; };
+		E17808002BD6CAB80085073C /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17807F92BD6CAB80085073C /* HomeScreen.swift */; };
+		E17808012BD6CAB80085073C /* DefectDetailScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17807FA2BD6CAB80085073C /* DefectDetailScreen.swift */; };
+		E17808022BD6CAB80085073C /* FormTestScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17807FB2BD6CAB80085073C /* FormTestScreen.swift */; };
+		E17808032BD6CAB80085073C /* AccessibilityScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17807FC2BD6CAB80085073C /* AccessibilityScreen.swift */; };
+		E17808042BD6CAB80085073C /* car.png in Resources */ = {isa = PBXBuildFile; fileRef = E17807FD2BD6CAB80085073C /* car.png */; };
+		E17808052BD6CAB80085073C /* SheetScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17807FE2BD6CAB80085073C /* SheetScreen.swift */; };
+		E17808082BD6CB8D0085073C /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17808072BD6CB8D0085073C /* Color.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E17807422BD6A6350085073C /* mdevcamp-greencode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "mdevcamp-greencode.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E17807452BD6A6350085073C /* mdevcamp_greencodeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mdevcamp_greencodeApp.swift; sourceTree = "<group>"; };
-		E17807472BD6A6350085073C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E17807452BD6A6350085073C /* Main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Main.swift; sourceTree = "<group>"; };
 		E17807492BD6A6360085073C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E178074C2BD6A6360085073C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E17807532BD6A6570085073C /* MAULWrapper */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = MAULWrapper; sourceTree = "<group>"; };
+		E17807572BD6B3F70085073C /* Assignment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Assignment.swift; sourceTree = "<group>"; };
+		E17807582BD6B3F70085073C /* MainView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		E178075A2BD6B3F70085073C /* Showcase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Showcase.swift; sourceTree = "<group>"; };
+		E17807602BD6C1DA0085073C /* Screens.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Screens.swift; sourceTree = "<group>"; };
+		E17807632BD6C32F0085073C /* DatePickerScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatePickerScreen.swift; sourceTree = "<group>"; };
+		E17807642BD6C32F0085073C /* ColorPickerScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorPickerScreen.swift; sourceTree = "<group>"; };
+		E17807652BD6C32F0085073C /* NativePageControlScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NativePageControlScreen.swift; sourceTree = "<group>"; };
+		E17807662BD6C32F0085073C /* ButtonScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonScreen.swift; sourceTree = "<group>"; };
+		E17807672BD6C32F0085073C /* ConfirmDialogScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfirmDialogScreen.swift; sourceTree = "<group>"; };
+		E17807692BD6C32F0085073C /* BadgeScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BadgeScreen.swift; sourceTree = "<group>"; };
+		E178076A2BD6C32F0085073C /* SliderScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SliderScreen.swift; sourceTree = "<group>"; };
+		E178076B2BD6C32F0085073C /* StatusScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatusScreen.swift; sourceTree = "<group>"; };
+		E178076C2BD6C32F0085073C /* TextEditorScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextEditorScreen.swift; sourceTree = "<group>"; };
+		E178076D2BD6C32F0085073C /* FormScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FormScreen.swift; sourceTree = "<group>"; };
+		E178076E2BD6C32F0085073C /* CheckboxScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckboxScreen.swift; sourceTree = "<group>"; };
+		E178076F2BD6C32F0085073C /* CardScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardScreen.swift; sourceTree = "<group>"; };
+		E17807702BD6C32F0085073C /* MenuScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuScreen.swift; sourceTree = "<group>"; };
+		E17807712BD6C3300085073C /* SnackBarScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnackBarScreen.swift; sourceTree = "<group>"; };
+		E17807722BD6C3300085073C /* TextFieldScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextFieldScreen.swift; sourceTree = "<group>"; };
+		E17807732BD6C3300085073C /* ChipsScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChipsScreen.swift; sourceTree = "<group>"; };
+		E17807742BD6C3300085073C /* SecureFieldScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecureFieldScreen.swift; sourceTree = "<group>"; };
+		E17807752BD6C3300085073C /* ProgressViewScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgressViewScreen.swift; sourceTree = "<group>"; };
+		E17807762BD6C3300085073C /* CustomSearchFieldScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomSearchFieldScreen.swift; sourceTree = "<group>"; };
+		E17807772BD6C3300085073C /* ListScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListScreen.swift; sourceTree = "<group>"; };
+		E17807782BD6C3300085073C /* NumberingPageControlScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NumberingPageControlScreen.swift; sourceTree = "<group>"; };
+		E17807792BD6C3300085073C /* RadioGroupScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RadioGroupScreen.swift; sourceTree = "<group>"; };
+		E178077A2BD6C3300085073C /* DialogScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DialogScreen.swift; sourceTree = "<group>"; };
+		E178077B2BD6C3300085073C /* LabelScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LabelScreen.swift; sourceTree = "<group>"; };
+		E178077C2BD6C3300085073C /* SearchFieldScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchFieldScreen.swift; sourceTree = "<group>"; };
+		E178077D2BD6C3300085073C /* BannerScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BannerScreen.swift; sourceTree = "<group>"; };
+		E178077E2BD6C3300085073C /* MapPinScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapPinScreen.swift; sourceTree = "<group>"; };
+		E178077F2BD6C3300085073C /* TimestampPageControlScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimestampPageControlScreen.swift; sourceTree = "<group>"; };
+		E17807802BD6C3300085073C /* SegmentedControlScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SegmentedControlScreen.swift; sourceTree = "<group>"; };
+		E17807812BD6C3300085073C /* AvatarScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AvatarScreen.swift; sourceTree = "<group>"; };
+		E17807822BD6C3300085073C /* PickerScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PickerScreen.swift; sourceTree = "<group>"; };
+		E17807832BD6C3300085073C /* ToggleSwitchScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToggleSwitchScreen.swift; sourceTree = "<group>"; };
+		E17807842BD6C3300085073C /* StepperScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StepperScreen.swift; sourceTree = "<group>"; };
+		E17807A82BD6C3860085073C /* FormPlayground.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FormPlayground.swift; sourceTree = "<group>"; };
+		E17807A92BD6C3860085073C /* MapPinPlayground.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapPinPlayground.swift; sourceTree = "<group>"; };
+		E17807AA2BD6C3860085073C /* ProgressViewPlayground.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgressViewPlayground.swift; sourceTree = "<group>"; };
+		E17807AB2BD6C3860085073C /* BannerPlayground.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BannerPlayground.swift; sourceTree = "<group>"; };
+		E17807AC2BD6C3870085073C /* SheetPlayground.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SheetPlayground.swift; sourceTree = "<group>"; };
+		E17807AD2BD6C3870085073C /* SecureFieldPlayground.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecureFieldPlayground.swift; sourceTree = "<group>"; };
+		E17807AE2BD6C3870085073C /* LabelPlayground.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LabelPlayground.swift; sourceTree = "<group>"; };
+		E17807AF2BD6C3870085073C /* TextEditorPlayground.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextEditorPlayground.swift; sourceTree = "<group>"; };
+		E17807B02BD6C3870085073C /* CheckboxPlayground.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckboxPlayground.swift; sourceTree = "<group>"; };
+		E17807B12BD6C3870085073C /* TimestampPageControlPlayground.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimestampPageControlPlayground.swift; sourceTree = "<group>"; };
+		E17807B22BD6C3870085073C /* ChipPlayground.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChipPlayground.swift; sourceTree = "<group>"; };
+		E17807B32BD6C3870085073C /* SearchFieldPlayground.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchFieldPlayground.swift; sourceTree = "<group>"; };
+		E17807B42BD6C3870085073C /* RadioGroupPlayground.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RadioGroupPlayground.swift; sourceTree = "<group>"; };
+		E17807B52BD6C3870085073C /* StatusPlayground.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatusPlayground.swift; sourceTree = "<group>"; };
+		E17807B62BD6C3870085073C /* TextFieldPlayground.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextFieldPlayground.swift; sourceTree = "<group>"; };
+		E17807B72BD6C3870085073C /* PickerPlayground.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PickerPlayground.swift; sourceTree = "<group>"; };
+		E17807B82BD6C3870085073C /* ToggleSwitchPlayground.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToggleSwitchPlayground.swift; sourceTree = "<group>"; };
+		E17807B92BD6C3870085073C /* CardPlayground.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardPlayground.swift; sourceTree = "<group>"; };
+		E17807BA2BD6C3870085073C /* DialogPlayground.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DialogPlayground.swift; sourceTree = "<group>"; };
+		E17807BB2BD6C3870085073C /* ListPlayground.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListPlayground.swift; sourceTree = "<group>"; };
+		E17807BC2BD6C3870085073C /* SliderPlayground.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SliderPlayground.swift; sourceTree = "<group>"; };
+		E17807BD2BD6C3870085073C /* StepperPlayground.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StepperPlayground.swift; sourceTree = "<group>"; };
+		E17807BE2BD6C3870085073C /* NumberingPageControPlayground.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NumberingPageControPlayground.swift; sourceTree = "<group>"; };
+		E17807BF2BD6C3870085073C /* SnackbarPlayground.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnackbarPlayground.swift; sourceTree = "<group>"; };
+		E17807C02BD6C3870085073C /* AvatarPlayground.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AvatarPlayground.swift; sourceTree = "<group>"; };
+		E17807C12BD6C3870085073C /* BadgePlayground.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BadgePlayground.swift; sourceTree = "<group>"; };
+		E17807C22BD6C3870085073C /* ButtonPlayground.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonPlayground.swift; sourceTree = "<group>"; };
+		E17807DF2BD6C4FF0085073C /* TypographyScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TypographyScreen.swift; sourceTree = "<group>"; };
+		E17807E02BD6C4FF0085073C /* ElevationScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ElevationScreen.swift; sourceTree = "<group>"; };
+		E17807E12BD6C4FF0085073C /* LogosScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogosScreen.swift; sourceTree = "<group>"; };
+		E17807E22BD6C4FF0085073C /* SpacesScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpacesScreen.swift; sourceTree = "<group>"; };
+		E17807E32BD6C4FF0085073C /* ColorScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorScreen.swift; sourceTree = "<group>"; };
+		E17807EA2BD6C51F0085073C /* MultiColourIconScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MultiColourIconScreen.swift; sourceTree = "<group>"; };
+		E17807EB2BD6C51F0085073C /* MultiColourIcons.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MultiColourIcons.swift; sourceTree = "<group>"; };
+		E17807EC2BD6C51F0085073C /* IconsScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IconsScreen.swift; sourceTree = "<group>"; };
+		E17807ED2BD6C51F0085073C /* Icons.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Icons.swift; sourceTree = "<group>"; };
+		E17807F32BD6C64E0085073C /* Playground.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Playground.swift; sourceTree = "<group>"; };
+		E17807F42BD6C64E0085073C /* SplitView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplitView.swift; sourceTree = "<group>"; };
+		E17807F82BD6CAB80085073C /* NotificationsScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationsScreen.swift; sourceTree = "<group>"; };
+		E17807F92BD6CAB80085073C /* HomeScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
+		E17807FA2BD6CAB80085073C /* DefectDetailScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefectDetailScreen.swift; sourceTree = "<group>"; };
+		E17807FB2BD6CAB80085073C /* FormTestScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FormTestScreen.swift; sourceTree = "<group>"; };
+		E17807FC2BD6CAB80085073C /* AccessibilityScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccessibilityScreen.swift; sourceTree = "<group>"; };
+		E17807FD2BD6CAB80085073C /* car.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = car.png; sourceTree = "<group>"; };
+		E17807FE2BD6CAB80085073C /* SheetScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SheetScreen.swift; sourceTree = "<group>"; };
+		E17808072BD6CB8D0085073C /* Color.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,8 +219,11 @@
 		E17807442BD6A6350085073C /* mdevcamp-greencode */ = {
 			isa = PBXGroup;
 			children = (
-				E17807452BD6A6350085073C /* mdevcamp_greencodeApp.swift */,
-				E17807472BD6A6350085073C /* ContentView.swift */,
+				E178075F2BD6C1920085073C /* Showcase */,
+				E17807572BD6B3F70085073C /* Assignment.swift */,
+				E17807452BD6A6350085073C /* Main.swift */,
+				E17807582BD6B3F70085073C /* MainView.swift */,
+				E178075A2BD6B3F70085073C /* Showcase.swift */,
 				E17807492BD6A6360085073C /* Assets.xcassets */,
 				E178074B2BD6A6360085073C /* Preview Content */,
 			);
@@ -69,6 +236,149 @@
 				E178074C2BD6A6360085073C /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E178075F2BD6C1920085073C /* Showcase */ = {
+			isa = PBXGroup;
+			children = (
+				E17808062BD6CB7F0085073C /* Extensions */,
+				E17807F72BD6CAA60085073C /* TestScreens */,
+				E17807DE2BD6C4E60085073C /* Visuals */,
+				E17807A72BD6C3750085073C /* Playgrounds */,
+				E17807622BD6C3160085073C /* Screens */,
+				E17807602BD6C1DA0085073C /* Screens.swift */,
+			);
+			path = Showcase;
+			sourceTree = "<group>";
+		};
+		E17807622BD6C3160085073C /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				E17807812BD6C3300085073C /* AvatarScreen.swift */,
+				E17807692BD6C32F0085073C /* BadgeScreen.swift */,
+				E178077D2BD6C3300085073C /* BannerScreen.swift */,
+				E17807662BD6C32F0085073C /* ButtonScreen.swift */,
+				E178076F2BD6C32F0085073C /* CardScreen.swift */,
+				E178076E2BD6C32F0085073C /* CheckboxScreen.swift */,
+				E17807732BD6C3300085073C /* ChipsScreen.swift */,
+				E17807642BD6C32F0085073C /* ColorPickerScreen.swift */,
+				E17807672BD6C32F0085073C /* ConfirmDialogScreen.swift */,
+				E17807762BD6C3300085073C /* CustomSearchFieldScreen.swift */,
+				E17807632BD6C32F0085073C /* DatePickerScreen.swift */,
+				E178077A2BD6C3300085073C /* DialogScreen.swift */,
+				E178076D2BD6C32F0085073C /* FormScreen.swift */,
+				E178077B2BD6C3300085073C /* LabelScreen.swift */,
+				E17807772BD6C3300085073C /* ListScreen.swift */,
+				E178077E2BD6C3300085073C /* MapPinScreen.swift */,
+				E17807702BD6C32F0085073C /* MenuScreen.swift */,
+				E17807652BD6C32F0085073C /* NativePageControlScreen.swift */,
+				E17807782BD6C3300085073C /* NumberingPageControlScreen.swift */,
+				E17807822BD6C3300085073C /* PickerScreen.swift */,
+				E17807752BD6C3300085073C /* ProgressViewScreen.swift */,
+				E17807792BD6C3300085073C /* RadioGroupScreen.swift */,
+				E178077C2BD6C3300085073C /* SearchFieldScreen.swift */,
+				E17807742BD6C3300085073C /* SecureFieldScreen.swift */,
+				E17807802BD6C3300085073C /* SegmentedControlScreen.swift */,
+				E178076A2BD6C32F0085073C /* SliderScreen.swift */,
+				E17807712BD6C3300085073C /* SnackBarScreen.swift */,
+				E178076B2BD6C32F0085073C /* StatusScreen.swift */,
+				E17807842BD6C3300085073C /* StepperScreen.swift */,
+				E178076C2BD6C32F0085073C /* TextEditorScreen.swift */,
+				E17807722BD6C3300085073C /* TextFieldScreen.swift */,
+				E178077F2BD6C3300085073C /* TimestampPageControlScreen.swift */,
+				E17807832BD6C3300085073C /* ToggleSwitchScreen.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		E17807A72BD6C3750085073C /* Playgrounds */ = {
+			isa = PBXGroup;
+			children = (
+				E17807F22BD6C6420085073C /* Template */,
+				E17807C02BD6C3870085073C /* AvatarPlayground.swift */,
+				E17807C12BD6C3870085073C /* BadgePlayground.swift */,
+				E17807AB2BD6C3860085073C /* BannerPlayground.swift */,
+				E17807C22BD6C3870085073C /* ButtonPlayground.swift */,
+				E17807B92BD6C3870085073C /* CardPlayground.swift */,
+				E17807B02BD6C3870085073C /* CheckboxPlayground.swift */,
+				E17807B22BD6C3870085073C /* ChipPlayground.swift */,
+				E17807BA2BD6C3870085073C /* DialogPlayground.swift */,
+				E17807A82BD6C3860085073C /* FormPlayground.swift */,
+				E17807AE2BD6C3870085073C /* LabelPlayground.swift */,
+				E17807BB2BD6C3870085073C /* ListPlayground.swift */,
+				E17807A92BD6C3860085073C /* MapPinPlayground.swift */,
+				E17807BE2BD6C3870085073C /* NumberingPageControPlayground.swift */,
+				E17807B72BD6C3870085073C /* PickerPlayground.swift */,
+				E17807AA2BD6C3860085073C /* ProgressViewPlayground.swift */,
+				E17807B42BD6C3870085073C /* RadioGroupPlayground.swift */,
+				E17807B32BD6C3870085073C /* SearchFieldPlayground.swift */,
+				E17807AD2BD6C3870085073C /* SecureFieldPlayground.swift */,
+				E17807AC2BD6C3870085073C /* SheetPlayground.swift */,
+				E17807BC2BD6C3870085073C /* SliderPlayground.swift */,
+				E17807BF2BD6C3870085073C /* SnackbarPlayground.swift */,
+				E17807B52BD6C3870085073C /* StatusPlayground.swift */,
+				E17807BD2BD6C3870085073C /* StepperPlayground.swift */,
+				E17807AF2BD6C3870085073C /* TextEditorPlayground.swift */,
+				E17807B62BD6C3870085073C /* TextFieldPlayground.swift */,
+				E17807B12BD6C3870085073C /* TimestampPageControlPlayground.swift */,
+				E17807B82BD6C3870085073C /* ToggleSwitchPlayground.swift */,
+			);
+			path = Playgrounds;
+			sourceTree = "<group>";
+		};
+		E17807DE2BD6C4E60085073C /* Visuals */ = {
+			isa = PBXGroup;
+			children = (
+				E17807E92BD6C5150085073C /* Icons */,
+				E17807E32BD6C4FF0085073C /* ColorScreen.swift */,
+				E17807E02BD6C4FF0085073C /* ElevationScreen.swift */,
+				E17807E12BD6C4FF0085073C /* LogosScreen.swift */,
+				E17807E22BD6C4FF0085073C /* SpacesScreen.swift */,
+				E17807DF2BD6C4FF0085073C /* TypographyScreen.swift */,
+			);
+			path = Visuals;
+			sourceTree = "<group>";
+		};
+		E17807E92BD6C5150085073C /* Icons */ = {
+			isa = PBXGroup;
+			children = (
+				E17807ED2BD6C51F0085073C /* Icons.swift */,
+				E17807EC2BD6C51F0085073C /* IconsScreen.swift */,
+				E17807EB2BD6C51F0085073C /* MultiColourIcons.swift */,
+				E17807EA2BD6C51F0085073C /* MultiColourIconScreen.swift */,
+			);
+			path = Icons;
+			sourceTree = "<group>";
+		};
+		E17807F22BD6C6420085073C /* Template */ = {
+			isa = PBXGroup;
+			children = (
+				E17807F32BD6C64E0085073C /* Playground.swift */,
+				E17807F42BD6C64E0085073C /* SplitView.swift */,
+			);
+			path = Template;
+			sourceTree = "<group>";
+		};
+		E17807F72BD6CAA60085073C /* TestScreens */ = {
+			isa = PBXGroup;
+			children = (
+				E17807FC2BD6CAB80085073C /* AccessibilityScreen.swift */,
+				E17807FD2BD6CAB80085073C /* car.png */,
+				E17807FA2BD6CAB80085073C /* DefectDetailScreen.swift */,
+				E17807FB2BD6CAB80085073C /* FormTestScreen.swift */,
+				E17807F92BD6CAB80085073C /* HomeScreen.swift */,
+				E17807F82BD6CAB80085073C /* NotificationsScreen.swift */,
+				E17807FE2BD6CAB80085073C /* SheetScreen.swift */,
+			);
+			path = TestScreens;
+			sourceTree = "<group>";
+		};
+		E17808062BD6CB7F0085073C /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				E17808072BD6CB8D0085073C /* Color.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,6 +445,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E17808042BD6CAB80085073C /* car.png in Resources */,
 				E178074D2BD6A6360085073C /* Preview Assets.xcassets in Resources */,
 				E178074A2BD6A6360085073C /* Assets.xcassets in Resources */,
 			);
@@ -147,8 +458,89 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E17807482BD6A6350085073C /* ContentView.swift in Sources */,
-				E17807462BD6A6350085073C /* mdevcamp_greencodeApp.swift in Sources */,
+				E17808012BD6CAB80085073C /* DefectDetailScreen.swift in Sources */,
+				E17807992BD6C3300085073C /* ListScreen.swift in Sources */,
+				E17807A32BD6C3300085073C /* AvatarScreen.swift in Sources */,
+				E17807922BD6C3300085073C /* MenuScreen.swift in Sources */,
+				E17807C92BD6C3870085073C /* LabelPlayground.swift in Sources */,
+				E17807C42BD6C3870085073C /* MapPinPlayground.swift in Sources */,
+				E17807A42BD6C3300085073C /* PickerScreen.swift in Sources */,
+				E17807E72BD6C4FF0085073C /* SpacesScreen.swift in Sources */,
+				E17807CF2BD6C3870085073C /* RadioGroupPlayground.swift in Sources */,
+				E17808052BD6CAB80085073C /* SheetScreen.swift in Sources */,
+				E17807962BD6C3300085073C /* SecureFieldScreen.swift in Sources */,
+				E17807D62BD6C3870085073C /* ListPlayground.swift in Sources */,
+				E17807C82BD6C3870085073C /* SecureFieldPlayground.swift in Sources */,
+				E17807CB2BD6C3870085073C /* CheckboxPlayground.swift in Sources */,
+				E17807EE2BD6C51F0085073C /* MultiColourIconScreen.swift in Sources */,
+				E178079D2BD6C3300085073C /* LabelScreen.swift in Sources */,
+				E17807DB2BD6C3870085073C /* AvatarPlayground.swift in Sources */,
+				E17807D92BD6C3870085073C /* NumberingPageControPlayground.swift in Sources */,
+				E178078C2BD6C3300085073C /* SliderScreen.swift in Sources */,
+				E178075E2BD6B3F70085073C /* Showcase.swift in Sources */,
+				E17807952BD6C3300085073C /* ChipsScreen.swift in Sources */,
+				E178079F2BD6C3300085073C /* BannerScreen.swift in Sources */,
+				E17807612BD6C1DA0085073C /* Screens.swift in Sources */,
+				E17807CE2BD6C3870085073C /* SearchFieldPlayground.swift in Sources */,
+				E178078F2BD6C3300085073C /* FormScreen.swift in Sources */,
+				E178075B2BD6B3F70085073C /* Assignment.swift in Sources */,
+				E17807862BD6C3300085073C /* ColorPickerScreen.swift in Sources */,
+				E17807902BD6C3300085073C /* CheckboxScreen.swift in Sources */,
+				E17807D52BD6C3870085073C /* DialogPlayground.swift in Sources */,
+				E17807CA2BD6C3870085073C /* TextEditorPlayground.swift in Sources */,
+				E17807EF2BD6C51F0085073C /* MultiColourIcons.swift in Sources */,
+				E17807C72BD6C3870085073C /* SheetPlayground.swift in Sources */,
+				E17807C32BD6C3870085073C /* FormPlayground.swift in Sources */,
+				E17808082BD6CB8D0085073C /* Color.swift in Sources */,
+				E17808032BD6CAB80085073C /* AccessibilityScreen.swift in Sources */,
+				E17807F02BD6C51F0085073C /* IconsScreen.swift in Sources */,
+				E17808002BD6CAB80085073C /* HomeScreen.swift in Sources */,
+				E178075C2BD6B3F70085073C /* MainView.swift in Sources */,
+				E17807942BD6C3300085073C /* TextFieldScreen.swift in Sources */,
+				E17807D02BD6C3870085073C /* StatusPlayground.swift in Sources */,
+				E17807E52BD6C4FF0085073C /* ElevationScreen.swift in Sources */,
+				E17807D72BD6C3870085073C /* SliderPlayground.swift in Sources */,
+				E178079B2BD6C3300085073C /* RadioGroupScreen.swift in Sources */,
+				E17807D12BD6C3870085073C /* TextFieldPlayground.swift in Sources */,
+				E17807C62BD6C3870085073C /* BannerPlayground.swift in Sources */,
+				E17807912BD6C3300085073C /* CardScreen.swift in Sources */,
+				E178078D2BD6C3300085073C /* StatusScreen.swift in Sources */,
+				E17807A02BD6C3300085073C /* MapPinScreen.swift in Sources */,
+				E17807DA2BD6C3870085073C /* SnackbarPlayground.swift in Sources */,
+				E17807A62BD6C3300085073C /* StepperScreen.swift in Sources */,
+				E17807DC2BD6C3870085073C /* BadgePlayground.swift in Sources */,
+				E17807872BD6C3300085073C /* NativePageControlScreen.swift in Sources */,
+				E17807D32BD6C3870085073C /* ToggleSwitchPlayground.swift in Sources */,
+				E17807E62BD6C4FF0085073C /* LogosScreen.swift in Sources */,
+				E17808022BD6CAB80085073C /* FormTestScreen.swift in Sources */,
+				E17807CD2BD6C3870085073C /* ChipPlayground.swift in Sources */,
+				E17807892BD6C3300085073C /* ConfirmDialogScreen.swift in Sources */,
+				E17807D42BD6C3870085073C /* CardPlayground.swift in Sources */,
+				E178078E2BD6C3300085073C /* TextEditorScreen.swift in Sources */,
+				E17807F62BD6C64E0085073C /* SplitView.swift in Sources */,
+				E17807C52BD6C3870085073C /* ProgressViewPlayground.swift in Sources */,
+				E17807462BD6A6350085073C /* Main.swift in Sources */,
+				E178078B2BD6C3300085073C /* BadgeScreen.swift in Sources */,
+				E17807D82BD6C3870085073C /* StepperPlayground.swift in Sources */,
+				E178079C2BD6C3300085073C /* DialogScreen.swift in Sources */,
+				E17807A52BD6C3300085073C /* ToggleSwitchScreen.swift in Sources */,
+				E17807CC2BD6C3870085073C /* TimestampPageControlPlayground.swift in Sources */,
+				E178079A2BD6C3300085073C /* NumberingPageControlScreen.swift in Sources */,
+				E17807A22BD6C3300085073C /* SegmentedControlScreen.swift in Sources */,
+				E17807A12BD6C3300085073C /* TimestampPageControlScreen.swift in Sources */,
+				E17807882BD6C3300085073C /* ButtonScreen.swift in Sources */,
+				E17807FF2BD6CAB80085073C /* NotificationsScreen.swift in Sources */,
+				E17807E82BD6C4FF0085073C /* ColorScreen.swift in Sources */,
+				E17807852BD6C3300085073C /* DatePickerScreen.swift in Sources */,
+				E178079E2BD6C3300085073C /* SearchFieldScreen.swift in Sources */,
+				E17807E42BD6C4FF0085073C /* TypographyScreen.swift in Sources */,
+				E17807F12BD6C51F0085073C /* Icons.swift in Sources */,
+				E17807982BD6C3300085073C /* CustomSearchFieldScreen.swift in Sources */,
+				E17807932BD6C3300085073C /* SnackBarScreen.swift in Sources */,
+				E17807F52BD6C64E0085073C /* Playground.swift in Sources */,
+				E17807DD2BD6C3870085073C /* ButtonPlayground.swift in Sources */,
+				E17807D22BD6C3870085073C /* PickerPlayground.swift in Sources */,
+				E17807972BD6C3300085073C /* ProgressViewScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
