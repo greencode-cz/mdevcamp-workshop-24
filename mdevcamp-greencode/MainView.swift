@@ -4,14 +4,15 @@ import SwiftUI
 struct MainView: View {
   enum Tabs {
     case assignment1
-    case assignment2
-    case assignment3
+    case showcase
   }
+
+  @State var selectedTab: Tabs = .assignment1
 
   var body: some View {
     VStack(spacing: 0) {
       TabView(
-        selection: .constant(1),
+        selection: $selectedTab,
         content:  {
           Assignment().tabItem {
             Text("Assignment")
@@ -23,7 +24,7 @@ struct MainView: View {
             Text("Showcase")
               .maulFontStyle(.body1)
               .foregroundColor(.MAUL.Text.primary)
-          }.tag(Tabs.assignment2)
+          }.tag(Tabs.showcase)
         }
       )
       .withMAULStyle

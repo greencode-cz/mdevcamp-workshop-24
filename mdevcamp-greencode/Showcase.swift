@@ -78,22 +78,22 @@ struct Showcase: View {
           Image(systemName: "uiwindow.split.2x1")
           Text("Components")
         }
-        NavigationLink {
-          List {
-            Screen("Home screen", content: HomeScreen())
-            Screen("Notification screen", content: NotificationsScreen())
-            Screen("Defect Detail screen", content: DefectDetailScreen())
-            Screen("Sheet screen", content: SheetNavigationScreen())
-            Screen("Accessibility screen", content: AccessibilityScreen())
-              .accessibilityIdentifier("accesibility_screen_nav_button")
-          }
-          .listStyle(.plain)
-          .navigationTitle("Screens")
-        } label: {
-          Image(systemName: "display")
-          Text("Screens")
-        }
-        .accessibilityIdentifier("screens_navigation_button")
+//        NavigationLink {
+//          List {
+//            Screen("Home screen", content: HomeScreen())
+//            Screen("Notification screen", content: NotificationsScreen())
+//            Screen("Defect Detail screen", content: DefectDetailScreen())
+//            Screen("Sheet screen", content: SheetNavigationScreen())
+//            Screen("Accessibility screen", content: AccessibilityScreen())
+//              .accessibilityIdentifier("accesibility_screen_nav_button")
+//          }
+//          .listStyle(.plain)
+//          .navigationTitle("Screens")
+//        } label: {
+//          Image(systemName: "display")
+//          Text("Screens")
+//        }
+//        .accessibilityIdentifier("screens_navigation_button")
       }
       .listStyle(.plain)
       .navigationTitle("MAUL")

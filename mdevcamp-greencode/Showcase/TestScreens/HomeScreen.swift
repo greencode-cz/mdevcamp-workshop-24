@@ -10,29 +10,21 @@ struct HomeView: View {
 
   @State private var imageSize: CGSize = CGSize()
 
-#if os(iOS)
   @Environment(\.verticalSizeClass) var verticalSizeClass: UserInterfaceSizeClass?
   @Environment(\.horizontalSizeClass) var horizontalSizeClass: UserInterfaceSizeClass?
-#endif
 
   var body: some View {
     VStack(spacing: 0) {
       ScrollView {
-#if os(iOS)
         if horizontalSizeClass == .compact && verticalSizeClass == .regular {
-          Image("halfCarBackground")
+          Image("car")
             .resizable()
             .scaledToFill()
         } else {
-          Image("carBackground")
+          Image("car-full")
             .resizable()
             .scaledToFill()
         }
-#else
-        Image("carBackground")
-          .resizable()
-          .scaledToFill()
-#endif
 
         Group {
           // GroupBox has content and can be applied custom style, usage as card
@@ -163,9 +155,7 @@ struct HomeView: View {
       .frame(height: 56)
     }
     .navigationTitle("Phantom")
-#if os(iOS)
     .navigationBarTitleDisplayMode(.large)
-#endif
     .background(Color.MAUL.Background.primary)
   }
 

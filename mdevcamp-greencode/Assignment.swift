@@ -3,9 +3,22 @@ import SwiftUI
 
 struct Assignment: View {
   var body: some View {
-    VStack {
-      Text("")
+    NavigationView {
+      List {
+        NavigationLink("Assignment1") {
+          Assignment1()
+        }
+        NavigationLink("Assignment2") {
+          Assignment2()
+        }
+        NavigationLink("Assignment3") {
+          Assignment3()
+        }
+      }
+      .listStyle(.plain)
+      .navigationTitle("Assignments")
     }
+    .withMAULStyle
   }
 }
 
